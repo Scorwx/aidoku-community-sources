@@ -1,0 +1,16 @@
+[
+	{
+		"type": "group",
+		"title": "Ayarlar",
+		"footer": "Not: Çoğu Madara kaynağında yüksek çözünürlüklü bir kapak görüntüsü ve düşük çözünürlüklü bir kapak görüntüsü vardır.\nYüksek çözünürlüklü kapak görüntüsünün etkinleştirilmesi indirilen veri miktarını artırır ve yükleme süresinin uzamasına neden olabilir.",
+		"items": [
+			{
+				"type": "switch",
+				"key": "highres",
+				"title": "Yüksek Çözünürlüklü Kapak",
+				"subtitle": "Ana sayfa ve Arama sayfası için",
+				"default": true
+			}
+		]
+	}
+]
