@@ -1,0 +1,151 @@
+[
+	{
+		"type": "title"
+	},
+	{
+		"type": "group",
+		"name": "Status",
+		"filters": [
+			{
+				"type": "check",
+				"name": "Devam ediyor"
+			},
+			{
+				"type": "check",
+				"name": "Beklemede"
+			},
+			{
+				"type": "check",
+				"name": "Bırakılmış"
+			},
+			{
+				"type": "check",
+				"name": "Tamamlanmış"
+			}
+		]
+	},
+	{
+		"type": "select",
+		"name": "Tür Koşulları",
+		"options": [
+			"OR (having one of the selected genre)",
+			"AND (having all of the selected genres)"
+		]
+	},
+	{
+		"type": "group",
+		"name": "Türler",
+		"filters": [
+			{
+				"type": "genre",
+				"name": "Aksiyon",
+				"id": "action"
+			},
+			{
+				"type": "genre",
+				"name": "Macera",
+				"id": "adventure"
+			},
+			{
+				"type": "genre",
+				"name": "Comedy",
+				"id": "comedy"
+			},
+			{
+				"type": "genre",
+				"name": "Drama",
+				"id": "drama"
+			},
+			{
+				"type": "genre",
+				"name": "Ecchi",
+				"id": "ecchi"
+			},
+			{
+				"type": "genre",
+				"name": "Fantezi",
+				"id": "fantasy"
+			},
+			{
+				"type": "genre",
+				"name": "Harem",
+				"id": "harem"
+			},
+			{
+				"type": "genre",
+				"name": "Tarihsel",
+				"id": "historical"
+			},
+			{
+				"type": "genre",
+				"name": "Korku",
+				"id": "horror"
+			},
+			{
+				"type": "genre",
+				"name": "Live Action",
+				"id": "live-action"
+			},
+			{
+				"type": "genre",
+				"name": "Manhua",
+				"id": "manhua"
+			},
+			{
+				"type": "genre",
+				"name": "Dövüş Sanatları",
+				"id": "martial-arts"
+			},
+			{
+				"type": "genre",
+				"name": "Gizem",
+				"id": "mystery"
+			},
+			{
+				"type": "genre",
+				"name": "İntikam",
+				"id": "revenge"
+			},
+			{
+				"type": "genre",
+				"name": "Romantizm",
+				"id": "romance"
+			},
+			{
+				"type": "genre",
+				"name": "Okul",
+				"id": "school"
+			},
+			{
+				"type": "genre",
+				"name": "Bilim-Kurgu",
+				"id": "sci-fi"
+			},
+			{
+				"type": "genre",
+				"name": "Seinen",
+				"id": "seinen"
+			},
+			{
+				"type": "genre",
+				"name": "Shounen",
+				"id": "shounen"
+			},
+			{
+				"type": "genre",
+				"name": "Doğaüstü",
+				"id": "supernatural"
+			},
+			{
+				"type": "genre",
+				"name": "Gerilim",
+				"id": "thriller"
+			},
+			{
+				"type": "genre",
+				"name": "Zombi",
+				"id": "zombie"
+			}
+		]
+	}
+]
