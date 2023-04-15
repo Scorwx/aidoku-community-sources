@@ -9,6 +9,15 @@
     "nsfw": 1
   },
   {
+    "id": "tr.hayalistic",
+    "name": "Hayalistic",
+    "file": "tr.hayalistic-v1.aix",
+    "icon": "tr.hayalistic-v1.png",
+    "lang": "tr",
+    "version": 1,
+    "nsfw": 0
+  },
+  {
     "id": "it.mangaworld",
     "name": "MangaWorld",
     "file": "it.mangaworld-v2.aix",
